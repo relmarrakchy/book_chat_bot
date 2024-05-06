@@ -8,8 +8,10 @@ material = "1.11.0"
 activity = "1.9.0"
 constraintlayout = "2.1.4"
 retrofit = "2.11.0"
-#picasso = "2.71828"
-
+picasso = "2.71828"
+cppVersion="2.5.0"
+googleServices = "4.4.1"
+firebaseFirestore = "24.11.1"
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
@@ -18,7 +20,12 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+picasso = { group = "com.squareup.picasso", name = "picasso", version.ref = "picasso" }
+ccp = { module = "com.hbb20:ccp", version.ref = "cppVersion" }
+google-services = { group = "com.google.gms", name = "google-services", version.ref = "googleServices" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 

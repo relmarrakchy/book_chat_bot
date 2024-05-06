@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "833654850028",
+    "project_id": "chatting-762cf",
+    "storage_bucket": "chatting-762cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833654850028:android:facd9aae4252b639a300c9",
+        "android_client_info": {
+          "package_name": "com.errmakh.consultingbooksapp_chatbotapp_chatingapp_androidproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3Fjft3l-qJXRksAO-xdGhpwOa8W9DkcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

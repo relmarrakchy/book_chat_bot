@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">ConsultingBooksApp_ChatBotApp_ChatingApp_AndroidProject</string>
+
+    <string name="button_search">Search</string>
+    <string name="button_share">Share</string>
+
+    <string name="msg_from_user">Msg from user</string>
+    <string name="msg_from_bot">Msg from bot</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="send">Send</string>
+
+    <string name="books_consulting_app">Books Consulting App</string>
+    <string name="chatbot_app">Chatbot App</string>
+    <string name="chating_app">Chating App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

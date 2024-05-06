@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +16,24 @@
         android:theme="@style/Theme.ConsultingBooksApp_ChatBotApp_ChatingApp_AndroidProject"
         tools:targetApi="31">
         <activity
+            android:name=".chatingApp.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chatingApp.SearchUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chatingApp.UserListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chatingApp.LoginUsernameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chatingApp.LoginOtpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chatingApp.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -21,6 +42,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".booksConsultingApp.activities.BookDetailActivity" />
+        <activity android:name=".booksConsultingApp.MainActivityBooksConsulting" />
+        <activity android:name=".chatBotApp.MainActivityChatBot" />
+        <activity android:name=".chatingApp.MainActivityChatingApp" />
     </application>
 
 </manifest>
